@@ -12,29 +12,19 @@
 <p align="center">Отчет по лабораторной работе №1</p>
 <p align="center">По предмету <i>Операционные системы</i></p>
 
-* элемент 1
-
-* элемент 2
-
-    * вложенный элемент 2.1
-
-    * вложенный элемент 2.2
-
-* элемент ...
-
 Содержание:<br>
 + Работа с Git
 + Написание bash-скриптов
-    +suzen1
-    +suzen2
-    +suzen19
-    +suzen20
-    +suzen21
-    +suzen22
-    +suzen23
-    +suzen24
-    +suzen26
-    +suzen27
+    *suzen1
+    *suzen2
+    *suzen19
+    *suzen20
+    *suzen21
+    *suzen22
+    *suzen23
+    *suzen24
+    *suzen26
+    *suzen27
 + Markdown
 
 <p align="right"> Выполнил студент: <i>Мирошникова Мария</i></p>
