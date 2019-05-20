@@ -15,20 +15,20 @@
 Содержание:<br>
 + Работа с Git
 + Написание bash-скриптов
-  +suzen1
-  +suzen2
-  +suzen19
-  +suzen20
-  +suzen21
-  +suzen22
-  +suzen23
-  +suzen24
-  +suzen26
-  +suzen27
+    +suzen1
+    +suzen2
+    +suzen19
+    +suzen20
+    +suzen21
+    +suzen22
+    +suzen23
+    +suzen24
+    +suzen26
+    +suzen27
 + Markdown
 
 <p align="right"> Выполнил студент: <i>Мирошникова Мария</i></p>
 <p align="right"> Группа: <i>ББСО-01-17</i></p>
 
-Москва, 2019
+<p align="center">Москва, 2019</p>
 
