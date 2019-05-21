@@ -9,3 +9,5 @@ Raid, LVM<br>
 
 <p align="center">Москва, 2019</p>
 
+Установка системы:<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/01.PNG "Характеристики дисков 1")
