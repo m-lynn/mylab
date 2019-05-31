@@ -16,10 +16,4 @@ Raid, LVM<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/04.PNG "Характеристики дисков 4")
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/05.PNG "Характеристики дисков 5")
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/06.PNG "Характеристики дисков 6")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/07.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/08.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/09.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/10.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/11.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/12.PNG "")
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/13mount.PNG "")
+
