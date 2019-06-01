@@ -103,16 +103,18 @@ lvs - логические тома внутри раздела. их описа
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.6-7.PNG "Задание 3")<br>
 6. Настройка LVM
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.1,2,4.PNG "Задание 3")<br>
-Добавлен том md63 в sdb, он добавлен как член lvm
+Теперь sdb - член lvm
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.3.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_after5,6.PNG "Задание 3")<br>
+Перемещение разделов
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_res.PNG "Задание 3")<br>
-Теперь все разделы есть на новом диске
+Теперь все разделы на новом диске
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.8.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9_01.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.10-11.PNG "Задание 3")<br>111
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.10-11.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.12.PNG "Задание 3")<br>
+7.
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
