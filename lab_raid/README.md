@@ -10,23 +10,23 @@ Raid, LVM<br>
 <p align="center">Москва, 2019</p>
 
 Установка системы:<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/01.PNG "Настроцка системы 1")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/01.PNG "")<br>
 Монтирование boot, настройка pv
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/02.PNG "Настроцка системы 2")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/02.PNG "")<br>
 Задание характеристик raid
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/03.PNG "Настроцка системы 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/03.PNG "")<br>
 Содержание и настройка lvm
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/04.PNG "Настроцка системы 4")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/05.PNG "Настроцка системы 5")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/04.PNG "")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/05.PNG "")<br>
 Задание точек монтирования 
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/06.PNG "Настроцка системы 6")<br>
-Копирование разделов boot
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/1.PNG "Настроцка системы 7")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/06.PNG "")<br>
+Копирование разделов boot<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/1.PNG "")<br>
 Вывод fdisk -l
 Команда выводит описание дисков и разделов на них в системе<br>
 Сначала описываются физические диски, после - логические разделы<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/2.1%20_fdisk_-l.PNG "Настроцка системы 8")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/2.2_fdisk_-l.PNG "Настроцка системы 9")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/2.1%20_fdisk_-l.PNG "")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/2.2_fdisk_-l.PNG "")<br>
 Вывод lsblk <br>
 Команда показывает дерево разделов на дисках<br>
 NAME - имя диска/раздела<br>
@@ -34,12 +34,12 @@ SIZE - его размар<br>
 FSTYPE - тип файловой системы в разделе<br>
 TYPE - указывает, чем является описываемое (disk, его часть, составляющая raid-массива, lvm, rom ..)<br>
 MOUNTPOINT - точки монтирования разделов<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/3_lsblk.PNG "Настроцка системы 10")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/3_lsblk.PNG "")<br>
 Установка загрузчика системы grub на второй диск, это необхдимо для того, чтобы при отказе одного диска, систему можно было запустить со второго<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/4_install_grub_2.PNG "Настроцка системы 11")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/4_install_grub_2.PNG "")<br>
 Просмотр состояния raid-массива<br>
 Имеем раздел md0 под контролем raid, 2 диска, оба активны<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/5_cat.PNG.PNG "Настроцка системы 6")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/5_cat.PNG "")<br>
 Вывод команд pvs, vgs, lv<br>
 pvs показывает состояние физических разделов<br>
 vgs - логические разделы<br>
