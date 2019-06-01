@@ -82,7 +82,7 @@ lvs - логические тома внутри раздела. их описа
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/1.PNG "Задание 2")<br>
 
 #### Задание 3<br>
-2. Состояние системы после отказа диска и перезагрузки
+2. Состояние системы после отказа диска и перезагрузки<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.2_1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.2_2.PNG "Задание 3")<br>
@@ -91,50 +91,82 @@ lvs - логические тома внутри раздела. их описа
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.1_1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.1_2.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.2.PNG "Задание 3")<br>
-5. Копирование данных с помощью LVM
-Установка grub на новый диск необходима, чтобы с него в последствии могла загрузаться ОС
+5. Копирование данных с помощью LVM<br>
+Установка grub на новый диск необходима, чтобы с него в последствии могла загрузаться ОС<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.1.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.1_2.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.2.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.3.PNG "Задание 3")<br>
+Перемонтировка boot на новый диск<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.4_boot_reinst.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.5.PNG "Задание 3")<br>
-Создан новый массив md63 с одинм новым иском в нем, В sdb добавилась х-ча "часть рейд-массива"
+Создан новый массив md63 с одинм новым иском в нем, В sdb добавилась х-ча "часть рейд-массива"<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.6-7.PNG "Задание 3")<br>
-6. Настройка LVM
+6. Настройка LVM<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.1,2,4.PNG "Задание 3")<br>
-Теперь sdb - член lvm
+Теперь sdb - член lvm<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.3.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_after5,6.PNG "Задание 3")<br>
-Перемещение разделов
+Перемещение разделов<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_res.PNG "Задание 3")<br>
-Теперь все разделы на новом диске
+Теперь все разделы на новом диске<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.8.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9_01.PNG "Задание 3")<br>
-md0 полностью свободен, 
+md0 полностью свободен, md63 заполнен<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.10-11.PNG "Задание 3")<br>
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.12.PNG "Задание 3")<br>
-7.
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
-
-
-
-
+8. Удаление второго старого диска, монтирование новых<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/08_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/08_2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/08_3.PNG "Задание 3")<br>
+Первый новый диск был перемещен на нулевой порт sata, разметка есть только на нем, остальные диски свободны<br>
+9. Восстановление работы массива<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/09.1_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/09.1_2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/09.2.PNG "Задание 3")<br>
+10. Копирование раздела boot<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/10.PNG "Задание 3")<br>
+11. Уcтановка grub на второй новый диск, изменение размера раздела на нем<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/11-12.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/12_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/12_2.PNG "Задание 3")<br>
+13.Обновленная таблица разделов<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/13.0.PNG "Задание 3")<br>
+Обновление raid-массива<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/13.1-3.PNG "Задание 3")<br>
+14. Изменение раздела на первом новом диске<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/14.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/14.2.PNG "Задание 3")<br>
+15. Обновленная таблица разделов<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/15.PNG "Задание 3")<br>
+16. Расширение raid-массива<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/16.PNG "Задание 3")<br>
+Раздел raid-устройства стал равен размеру самих разделов на дисках<br>
+17. Расширение pv<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/17.PNG "Задание 3")<br>
+18. Изменение размеров логических разделов<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/18_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/18_2.PNG "Задание 3")<br>
+19. Работа с новыми hdd<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/19.1.PNG "Задание 3")<br>
+Создание второго raid-массива. Задание физического раздела, группы в нем<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/19.2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/19.3.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/19.4.PNG "Задание 3")<br>
+Состояние разделов после создания и форматирования<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/19.5.PNG "Задание 3")<br>
+20. Перенос данных в новые разделы<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/20.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/20.2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/20.3.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/20.4.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/20.5.PNG "Задание 3")<br>
+21. Правка /etc/fstab<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/21.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/21.2.PNG "Задание 3")<br>
+23. Проверки<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/23.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/23.2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/23.3.PNG "Задание 3")<br>
+Создано два reid-массива на основе 2 ssd и 2 hdd
