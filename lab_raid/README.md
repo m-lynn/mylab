@@ -82,8 +82,55 @@ lvs - логические тома внутри раздела. их описа
 ![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/1.PNG "Задание 2")<br>
 
 #### Задание 3<br>
-1.
-![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part1.2/1.PNG "Задание 3")
+2. Состояние системы после отказа диска и перезагрузки
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.2_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.2_2.PNG "Задание 3")<br>
+4. Добавление нового ssd
+Его индекс внутри системы sdb
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.1_1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.1_2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/04.2.PNG "Задание 3")<br>
+5. Копирование данных с помощью LVM
+Установка grub на новый диск необходима, чтобы с него в последствии могла загрузаться ОС
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.1_2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.2.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.3.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.4_boot_reinst.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.5.PNG "Задание 3")<br>
+Создан новый массив md63 с одинм новым иском в нем, В sdb добавилась х-ча "часть рейд-массива"
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/05.6-7.PNG "Задание 3")<br>
+6. Настройка LVM
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.1,2,4.PNG "Задание 3")<br>
+Добавлен том md63 в sdb, он добавлен как член lvm
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.3.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_after5,6.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.7_res.PNG "Задание 3")<br>
+Теперь все разделы есть на новом диске
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.8.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9_01.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.9.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.10-11.PNG "Задание 3")<br>111
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/06.12.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
+![alt-текст](https://raw.githubusercontent.com/m-lynn/mylab/master/lab_raid/images/part3/02.1.PNG "Задание 3")<br>
 
 
 
